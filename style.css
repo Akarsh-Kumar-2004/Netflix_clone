@@ -19,7 +19,7 @@ body{
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1200px,100vw);
+    background-size: 100vw;
 
 }
 .main .box{
