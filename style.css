@@ -1,0 +1,369 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap'); */
+@import url('https://fonts.cdnfonts.com/css/netflix-font');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(0, 0, 0);
+    font-family: 'Netflix Font', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
+}
+.main{
+    background-image: url("./assets/images/background.jpg");
+    height: 95vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+
+}
+.main .box{
+    height: 95vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+#netflix_logo{
+    position: relative;
+    z-index: 10;
+}
+#nav_but1{
+    height:33px;
+    width: 100px;
+    position: relative;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 4px;
+    border:2px solid rgb(224, 213, 213);
+    color: white;
+}
+#nav_but2{
+    height:28px;
+    width: 80px;
+    position: relative;
+    z-index: 10;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    border-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-weight: 550;
+}
+
+nav{
+    max-width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 65px;
+    padding: 9px 0px 0px 0px;
+    gap: 10px;
+
+
+}
+#top_content{
+    height: 100%;
+    margin-bottom: -71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    flex-direction: column;
+    color: white;
+    font-family: 'Netflix Font', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* text-align: center; */
+    gap: 23px;
+    padding: 0px 30px;
+    
+}
+#line1{
+    font-size: 24px;
+}
+#line2{
+    font-size: 22px;
+}
+#bold_content{
+    font-weight: 900;
+    font-size: 48px;
+    align-items: center;
+}
+#get_started {
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    border-radius:4px ;
+    /* height: 50px;
+    width: 210px; */
+    border-radius: 4px;
+    padding: 9px 24px;
+    border-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+
+}
+.hero_but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px
+}
+#email{
+    /* height: 50px;
+    width: 580px;  */
+    padding: 16px 106px 11px 28px;    ;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 4px;
+    border:2px solid rgb(224, 213, 213);
+    font-size: 18px;
+    font-weight: bold;
+    font-weight: 100;
+
+
+} 
+
+.spacer{
+    background-color: rgb(59, 54, 54);
+    position: relative;
+    z-index: 10;
+    height: 8px;
+
+
+}
+
+
+.section_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+    /* padding: 70px 0px 50px 0px; */
+    height: 80vh;
+}
+#sec_1_bold{
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0px 0px 12px 0px;
+}
+.sec_1_font{
+    font-size: 24px;
+    font-weight: 400;
+}
+#sec_1_art{
+    position: relative;
+}
+#sec_1_img{
+    width: 36vw;
+    position: relative;
+    z-index: 1;
+
+}
+#sec_1_vid{
+    position: absolute;
+    top: 70px;
+    right: 60px;
+    width: 27.5vw;
+}
+#sec_2_img{
+    width: 36vw;
+    position: relative;
+
+}
+
+
+.section_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+    /* padding: 70px 0px 50px 0px; */
+    height: 80vh;
+    gap: 60px;
+}
+#sec_3_img{
+    width: 760px;
+    position: relative;
+    z-index: 1;
+
+}
+#sec_3_vid{
+    position: absolute;
+    top: 55px;
+    right: 147px;
+    width: 482px;
+}
+#sec_4_img{
+    width: 36vw;
+    position: relative;
+
+}
+
+
+
+
+
+
+#ques{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.faq_plus{
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+    margin: auto;
+    background-color: rgb(51, 51, 51);
+    height: 5.6vw;
+    align-items: center;
+    padding: 0px 20px 3px 22px;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+
+    
+}
+.svg_plus{
+    color: white;
+    width: 45px;
+    height: 45px;
+}
+#FAQ{
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    padding: 35px 0px 11px 0px;
+    
+    
+}
+#FAQ_WRITING{
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 41px 0px 16px 0px;
+}
+#faq_email_pad{
+    padding: 0px 0px 66px 0px;
+}
+#footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+    width: 80vw;
+    margin: auto;
+}
+.footer_col{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.anchor_tags{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+
+}
+#footer_number{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    width: 80vw;
+    margin: auto;
+    padding: 42px 0px 30px 0px;
+}
+#netflix_bottom{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+}
+.bottom_eng_but{
+    width: 80vw;
+    margin: auto;
+    padding: 23px 0px 0px 0px;
+    
+}
+.bottom_eng{
+    width: 80vw;
+    margin: auto;
+    padding: 25px 0px 85px 0px;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 1053px){
+    /* body{
+        background-color: aqua;
+    } */
+    #sec_1_img{
+        width: 500px;
+        
+    
+    }
+    #sec_1_vid{
+       
+        width: 400px;
+    }
+    .section_1{
+        flex-wrap: wrap;
+    
+    }
+    .section_3{
+        flex-wrap: wrap;
+    }
+    #sec_3_img{
+        width: 520px;
+        
+    
+    }
+    #sec_3_vid{
+       
+        top: 29px;
+        right: 95px;
+        width: 333px;
+    }
+    
+    #sec_2_img{
+        width: 340px;
+    }
+    #sec_4_img{
+        width: 340px;
+    }
+}
+@media screen and (max-width: 700px){
+    #footer{
+        grid-template-columns: 1fr 1fr;
+    }
+    .svg_plus{
+        color: white;
+        width: 20px;
+        height: 20px;
+    }
+    .faq_plus{
+        font-size: 16px;
+        font-weight: 400;
+
+    
+        
+    }
+    
+}
